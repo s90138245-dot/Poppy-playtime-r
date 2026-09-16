@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poppy Playtime Universe</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            background: linear-gradient(to bottom, #8b0000, #0a0a0a);
+            padding: 50px 20px;
+            border-bottom: 3px solid #ff0000;
+        }
+
+        h1 {
+            font-size: 3rem;
+            color: #ff4d4d;
+            text-shadow: 2px 2px 10px #000;
+            margin: 0;
+        }
+
+        .container {
+            padding: 40px 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+
+        .character-card {
+            background: #1a1a1a;
+            border: 2px solid #333;
+            border-radius: 15px;
+            width: 280px;
+            overflow: hidden;
+            transition: transform 0.3s, border-color 0.3s;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+        }
+
+        .character-card:hover {
+            transform: translateY(-10px);
+            border-color: #ff0000;
+            box-shadow: 0 0 20px rgba(255, 0, 0, 0.4);
+        }
+
+        .character-card img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover; /* این باعث می‌شود عکس‌ها بدون تغییر شکل، فضای کارت را پر کنند */
+            border-bottom: 2px solid #333;
+        }
+
+        .character-info {
+            padding: 20px;
+        }
+
+        .character-info h3 {
+            margin: 0 0 10px 0;
+            color: #ff4d4d;
+            font-size: 1.5rem;
+        }
+
+        .character-info p {
+            font-size: 0.9rem;
+            color: #bbb;
+            line-height: 1.4;
+        }
+
+        footer {
+            padding: 30px;
+            background: #050505;
+            color: #555;
+            font-size: 0.8rem;
+            border-top: 1px solid #222;
+        }
+
+        /* استایل ویژه برای بخش پروتوتایپ (ترسناک‌تر) */
+        .prototype-section {
+            border: 2px solid #ff0000 !important;
+            background: linear-gradient(145deg, #1a0000, #1a1a1a) !important;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Poppy Playtime Archive</h1>
+        <p>فایل‌های طبقه‌بندی شده آزمایشگاه Playtime Co.</p>
+    </header>
+
+    <div class="container">
+        
+        <!-- Huggy Wuggy -->
+        <div class="character-card">
+            <img src="images/Huggy.jpg" alt="Huggy Wuggy">
+            <div class="character-info">
+                <h3>Huggy Wuggy</h3>
+                <p>موجود آبی رنگ و مهیب که همیشه در سایه‌ها منتظر است.</p>
+            </div>
+        </div>
+
+        <!-- Dr. Harley -->
+        <div class="character-card">
+            <img src="images/Harley.jpg" alt="Dr. Harley Sawyer">
+            <div class="character-info">
+                <h3>Dr. Harley</h3>
+                <p>ذهن متفکر پشت آزمایش‌های تاریک کارخانه.</p>
+            </div>
+        </div>
+
+        <!-- Leila / Lily -->
+        <div class="character-card">
+            <img src="images/Lily.jpg" alt="Lily">
+            <div class="character-info">
+                <h3>Lily</h3>
+                <p>شخصیت مرموز و مهم در این دنیای تاریک.</p>
+            </div>
+        </div>
+
+        <!-- Prototype - بخش ویژه -->
+        <div class="character-card prototype-section">
+            <img src="images/Prototype.jpg" alt="The Prototype">
+            <div class="character-info">
+                <h3>The Prototype</h3>
+                <p>ساخت اصلی و خطرناک‌ترین موجود در کل آزمایشگاه.</p>
+            </div>
+        </div>
+
+        <!-- Doy (اضافه شده بر اساس لیست تو) -->
+        <div class="character-card">
+            <img src="images/Doy.jpg" alt="Doy">
+            <div class="character-info">
+                <h3>Doy</h3>
+                <p>موجود ثبت شده در آرشیو کارخانه.</p>
+            </div>
+        </div>
+
+        <!-- Harley 1 (اضافه شده بر اساس لیست تو) -->
+        <div class="character-card">
+            <img src="images/Harley1.jpg" alt="Harley Version 2">
+            <div class="character-info">
+                <h3>Harley (Alt)</h3>
+                <p>نسخه دوم یا تصویر جایگزین دکتر هارلی.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        &copy; 2026 Poppy Playtime Fan Project | طراحی شده برای طرفداران واقعی
+    </footer>
+
+</body>
+</html>
+          <p>مغز متفکر و کنترل‌کننده تاریکی.</p>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/250x250?text=Leila+Love" alt="Leila">
+                <h3>Leila Love Breed</h3>
+                <p>با موهای ارغوانی و اسرار پنهان.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- بخش هوش مصنوعی -->
+    <section id="ai-section">
+        <h2 style="color: var(--primary-color);">🤖 دستیار هوشمند پاپّی (AI)</h2>
+        <div id="chat-box">
+            <p><strong>AI:</strong> خوش آمدی! می‌خواهی درباره چه شخصیتی در Poppy Playtime بدانی؟</p>
+        </div>
+        <div class="input-group">
+            <input type="text" id="ai-input" placeholder="سوال خود را اینجا بپرس...">
+            <button class="btn-ai" onclick="askAI()">ارسال</button>
+        </div>
+    </section>
+
+    <!-- بخش نظرات -->
+    <section id="comments-section">
+        <h2>💬 نظرات طرفداران</h2>
+        <div id="comments-list">
+            <div class="comment"><strong>کاربر خفن:</strong> وای چقدر این سایت ترسناکه! عالی بود.</div>
+        </div>
+        <div class="input-group" style="margin-top: 20px;">
+            <input type="text" id="comment-input" placeholder="نظر خود را بنویسید...">
+            <button class="btn-ai" onclick="addComment()">ثبت نظر</button>
+        </div>
+    </section>
+
+    <!-- دکمه اصلی رفتن به کانال -->
+    <a href="https://your-channel-link.com" class="btn-channel">🚀 برو به کانال دکتر هارلی!</a>
+
+</div>
+
+<script>
+    // منطق ساده برای بخش هوش مصنوعی
+    function askAI() {
+        const input = document.getElementById('ai-input');
+        const chatBox = document.getElementById('chat-box');
+        const question = input.value;
+
+        if(question.trim() === "") return;
+
+        // نمایش سوال کاربر
+        chatBox.innerHTML += `<p><strong>تو:</strong> ${question}</p>`;
+        
+        // پاسخ شبیه‌سازی شده هوش مصنوعی
+        setTimeout(() => {
+            let answer = "ببخشید، من هنوز دارم در تاریکی جستجو می‌کنم! اما حتماً در آپدیت بعدی پاسخ می‌دهم.";
+            if(question.includes("hugging")) answer = "هاگی واگی خیلی گرسنه است، مراقب باش!";
+            if(question.includes("harley")) answer = "دکتر هارلی همیشه همه چیز را تحت کنترل دارد.";
+            
+            chatBox.innerHTML += `<p style="color: #ffcc00;"><strong>AI:</strong> ${answer}</p>`;
+            chatBox.scrollTop = chatBox.scrollHeight;
+        }, 1000);
+
+        input.value = "";
+    }
+
+    // منطق ساده برای بخش نظرات
+    function addComment() {
+        const input = document.getElementById('comment-input');
+        const list = document.getElementById('comments-list');
+
+        if(input.value.trim() === "") return;
+
+        const newComment = document.createElement('div');
+        newComment.className = 'comment';
+        newComment.innerHTML = `<strong>طرفدار جدید:</strong> ${input.value}`;
+        
+        list.appendChild(newComment);
+        input.value = "";
+    }
+</script>
+
+</body>
+</html>
